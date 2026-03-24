@@ -1,4 +1,5 @@
-[
+{
+  "audio": [
   {
     "title": "Billie Jean",
     "artist": "Michael Jackson",
@@ -73,3 +74,4 @@
     "title": "Two Days in February"
   }
 ]
+}
