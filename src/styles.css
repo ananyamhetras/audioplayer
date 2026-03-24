@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    text-align: center;
+    font-family: "Press Start 2P", Arial, sans-serif;
+    color: white;
+    font-size: large;
+    text-shadow:
+    4px 4px 0 black,
+   -4px 4px 0 black,
+    4px -4px 0 black,
+   -4px -4px 0 black;  
+    background-image: url("wallpaper.jpg");
+    padding: 20px;
+}
+
+.playlist {
+    width: 50%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.song {
+    color:#ff48c4;
+    width: 100%;
+    text-align: center;
+    text-shadow:
+    1px 1px 0 black,
+   -1px 1px 0 black,
+    1px -1px 0 black,
+   -1px -1px 0 black;
+}
+
+.podcast {
+    color: #10c8f6;
+    width: 100%;
+    text-align: center;
+    text-shadow:
+    1px 1px 0 black,
+   -1px 1px 0 black,
+    1px -1px 0 black,
+   -1px -1px 0 black;
+}
