@@ -4,7 +4,7 @@ export default function Status({tracks, currentIndex, isPlaying}) {
     if (currentIndex === null) return null;
 
     const track = tracks[currentIndex];
-    const title = track.title;
+    const title = track.title ? track.title : track.episodeTitle;
 
     return (
         <h2>
