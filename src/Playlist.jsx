@@ -14,7 +14,7 @@ export default function Playlist() {
 
   // Fetch playlist from JSON Server when component is being displayed
   useEffect(() => {
-    fetch("/audio.json")
+    fetch("./audio.json")
       .then(res => res.json())       // Convert response to JSON
       .then(data => setTracks(data)); // Store the tracks in state
   }, []); // Empty dependency array runs only once on load
